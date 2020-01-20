@@ -10,7 +10,7 @@ CONFIG = {
      "PORT": 1883,
      "TOPIC": "mqtt",
      # unique identifier of the chip
-     "CLIENT_ID": b"esp8266_" + ubinascii.hexlify(machine.unique_id())
+     "CLIENT_ID": b"esp32_" + ubinascii.hexlify(machine.unique_id())
 }
 
 
